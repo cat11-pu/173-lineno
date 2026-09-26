@@ -1,0 +1,5 @@
+{
+  "line_error_code": "E_BAD_LINE",
+  "digits": 2,
+  "lines": ["alpha", "", "gamma", "delta"]
+}

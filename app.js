@@ -4,7 +4,7 @@ import { addNumbers } from "./number.js";
 
 export function render(spec) {
   const lines = spec.lines || [];
-  const digits = spec.digits || 1;
+  const digits = spec.digits === undefined ? 1 : spec.digits;
   const numbered = addNumbers(lines, digits);
   const overflow = [];
   numbered.forEach((line, spot) => {
